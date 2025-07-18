@@ -1,0 +1,255 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.amount-container-openPhoto {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 20px 80px black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popup-openPhoto
+{
+    width: 850px;
+    height: 600px;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    display: flex;
+}
+.leftSide-OpenPhoto
+{
+    width: 450px;
+    height: 600px;
+    border-right: 2px rgb(84, 82, 82) solid;
+}
+.rightSide-OpenPhoto
+{
+    width: 450px;
+    height: 600px;
+}
+
+.image-section-OpenPhoto
+{
+    position: relative;
+    width: 450px;
+    height: 550px;
+}
+.image-section-OpenPhoto img
+{
+    width: 450px;
+    height: 550px;
+    background-size: cover;
+    border-radius: 20px 0px 0px 0px;
+}
+.big-heart-anim {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: heart-fade 0.8s ease-in-out;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.faHeartBig {
+    font-size: 100px;
+    color: #b720ee;
+    opacity: 0.9;
+}
+
+@keyframes heart-fade {
+    0% {
+        transform: translate(-50%, -50%) scale(0.6);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(-50%, -50%) scale(1.3);
+        opacity: 1;
+    }
+    70% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0.8;
+    }
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 0;
+    }
+}
+
+.lower-section-OpenPhoto
+{
+    width: 450px;
+    height: 50px;
+}
+
+.likes-OpenPhoto
+{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.like-OpenPhoto
+{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.clickComment
+{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.tag-OpenPhoto
+{
+    margin-left: 210px;
+    color: rgb(5, 206, 5);
+    font-size: 20px;
+    font-weight: 800;
+}
+.isLike-OpenPhoto
+{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.isLike-OpenPhoto.liked {
+  animation: pop 0.4s ease;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.4);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.craption-section
+{
+    width: 550px;
+    height: 600px;
+}
+.craption-section-openPhoto
+{
+    width: 550px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-top: 10px;
+}
+.circle-profile-openPhoto
+{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    background: linear-gradient(120deg,#e46c09,#9906ed,#3d4cee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileImage-user-profile-openPhoto
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+.profilePic-profile-openPhoto
+{
+    width: 400px;
+    height: 40px;
+    margin-left: 10px;
+    display: flex;
+}
+.profilePic-profile-openPhoto h2
+{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.profilePic-profile-openPhoto p
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.profilePic-profile-openPhoto h1
+{
+    margin-left: 30px;
+}
+.profilePic-profile-openPhoto img
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.profilePic-profile-openPhoto-comment
+{
+    width: 600px;
+    height: 40px;
+    margin-left: 13px;
+    margin-top: 20px;
+    display: flex;
+}
+.circle-profile-openPhoto-comment
+{
+    width: 50px;
+    height: 40px;
+}
+.profileImage-user-profile-openPhoto-comment img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-comment
+{
+    width: 480px;
+    height: 40px;
+}
+.user-comment-openPhoto
+{
+    width: 480px;
+    height: 20px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.user-comment-openPhoto p
+{
+    margin-left: 10px;
+}
+.user-date-openPhoto
+{
+    width: 480px;
+    height: 20px;
+    display: flex;
+}
+.user-date-openPhoto h5{
+    margin-left: 10px;
+    color: rgb(82, 80, 80);
+}
+

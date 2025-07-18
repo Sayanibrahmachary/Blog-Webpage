@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.signUpCustomerPage
+{
+    height: 680px;
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container
+{
+    width: 1000px;
+    height:580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.left {
+    width: 500px;
+    height: 580px;
+    border-radius: 20px;
+}
+.left img {
+    width: 500px;
+    height: 580px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.left-div
+{
+    width: 500px;
+    position: absolute;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	max-width: 50%;
+	top: 65%;
+	left:180px;
+    border-radius: 30px 0px 0px 30px;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+.left-div-text
+{
+    width: 400px;
+    height: 100px;
+    color: white;
+    animation: fadeIn 5s forwards;
+}
+.left-div-text h1{
+    color: white;
+}
+
+.left-div-text h3{
+    color: white;
+}
+.right-container{
+    width: 500px;
+    height: 550px;
+}
+.right
+{
+    width: 500px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightTop
+{
+    width: 500px;
+    height: 550px;
+    display: grid;
+}
+.profilePic
+{
+    width: 100%;
+    height: 70px;
+    border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageProfilePic img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customer1
+{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 45px;
+    border-radius: 50%;
+    border: none;
+}
+.input-div input {
+    border-radius: 0px 30px 30px 0px;
+    border: 2px solid rgb(81, 79, 79);
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    margin-left: 50px;
+}
+
+.i1 {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+    border-radius: 30px 0px 0px 30px;
+}
+
+.input-div input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid rgb(5, 6, 5);
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.input-div1 input {
+    width: 350px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid rgb(5, 6, 5);
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+.avatar-file
+{
+    width: 300px;
+    height: 30px;
+}
+
+.input-div1 input {
+    border-radius: 0px 30px 30px 0px;
+    border: 2px solid rgb(81, 79, 79);
+}
+
+.input-div1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: fit-content;
+    margin-left: 50px;
+}
+
+
+.input-div:focus-within input{
+    border: 2px solid rgb(188, 94, 31);
+}
+
+.input-div:focus-within .i1 .customer {
+    color:  rgb(188, 94, 31);
+}
+
+
+.submitButtonSignUpCustomer
+{
+    width: 190px;
+    height: 50px;
+    background-color: rgb(221, 101, 21);
+    border-radius: 25px;
+    color: white;
+	font-size: 20px;
+    font-weight: 500;
+	cursor: pointer;
+	transition: 0.3s;
+    border: 2px solid rgb(221, 101, 21);
+}
+
+.submitButtonSignUpCustomer:focus-within {
+	border:2px solid rgb(221, 101, 21);
+}
+
+.buttonSignUpCustomer
+{
+    width: 500px;
+    height:40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.firstDiv 
+{
+    width: 500px;
+    height: 40px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstDiv h2{
+    font-size: 30px;
+    color: rgb(221, 101, 21);
+}
+.line
+{
+    width: 500px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.line p{
+    color: gray;
+    font-size: 15px;
+}
+
+.upload-container {
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.upload-box {
+    border: 2px dashed grey;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:grey;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.upload-box:hover {
+    background-color: #fff4f2;
+}
+
+.hidden {
+    display: none;
+}
+.loginPage
+{
+    width:100%;
+    height:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.loginPage p{
+    color:grey;
+    font-size: 20px;
+}
+
+
+
+
+/* login page */
+.right-login
+{
+    height: 690px;
+    width: 1520px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightTop-login
+{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    background-color: aliceblue;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+}
+.imageProfilePic
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

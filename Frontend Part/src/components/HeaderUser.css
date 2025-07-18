@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header-user {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.header-user.scrolled {
+    background-color: #e6e6e6;
+}
+
+.leftSideHeader-user{
+    width:15%;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+}
+.leftSideHeader-user h1
+{
+    color: rgb(153, 48, 169);
+}
+.rightSideHeader-user{
+    width:68%;
+    font-size: 10px;
+    color:grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-user
+{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.home-user:hover
+{
+    color: #9906ed;
+}
+.home-user:focus-within 
+{
+    color:rgb(193, 6, 222);
+}
+.blog-user
+{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.blog-user:hover
+{
+    color: #9906ed;
+}
+.blog-user:focus-within 
+{
+    color:rgb(193, 6, 222);
+}
+.about-user
+{
+    font-size: 20px;
+    color:grey;
+    text-decoration: none;
+    margin-right: 50px;
+}
+.about-user:focus-within 
+{
+    color:rgb(193, 6, 222);
+}
+.searchDiv-user
+{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-user
+{
+    width: 500px;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 15px;
+}
+.searchIcon-user
+{
+    width: 50px;
+    height: 40px;
+    border-radius: 20px 0px 0px 20px;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom:  2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 246, 247);
+}
+.sections-user
+{
+    width: 500px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.sections-user p
+{
+    margin-top: 20px;
+}
+.circle
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(120deg,#e46c09,#9906ed,#3d4cee);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileImage-user
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.profileImage-user img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

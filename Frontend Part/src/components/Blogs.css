@@ -1,0 +1,12 @@
+.whole-container-blogs
+{
+  width: 100%;
+  background-color: rgb(229, 228, 228);
+}
+.blogs-container {
+  width: 80%;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* 4 cards per row if space allows */
+  gap: 20px;
+  margin-left: 180px;
+  background-color: rgb(227, 226, 226);
+}
