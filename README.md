@@ -60,3 +60,10 @@ This blogging webpage is a platform where users can write, share, and explore bl
    - Use this page to securely log out of your account and end your session on the platform.
 
    - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/Logout.png)
+## Future Plans
+   - Plan to develop a mobile app version of the platform to enhance accessibility and user engagement on the go.
+   - ntegrate AI-based content recommendations to personalize the user experience.
+   - Add social sharing features to allow users to easily share blog posts across platforms.
+   - Implement a bookmarking feature so users can save and revisit their favorite blog posts.
+## Conclusion
+   - This project showcases my ability to design and develop a user-centric blogging platform with clean UI, essential content features, and future-ready plans, aiming to    provide a calm and engaging space for digital expression.
