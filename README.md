@@ -28,3 +28,35 @@ This blogging webpage is a platform where users can write, share, and explore bl
   - Fill out the registration form with your details to create a new account.
 
   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/SignUp.png)
+#### Login
+   - If you already have an account, simply log in using your registered credentials to access your dashboard
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/Login.png)
+#### Home Page User
+   - Designed the user-facing Home Page to display personalized blog feeds, trending tags, and easy navigation for seamless exploration.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/HomePageUser.png)
+#### Posts Comments
+   - Implemented a comment system on blog posts to enable user interaction, feedback, and discussion in real time.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/ProductComments.png)
+#### Home Page Blogs
+   - Integrated a dynamic blog listing on the Home Page to showcase recent and trending posts with support for emotion-based tags.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/HomePageBlog.png)
+#### Profile
+   - Built a user profile page displaying personal information, bio, and a list of authored blog posts for easy content management.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/Profile.png)
+#### Create Posts
+   - Developed a rich text editor for users to create and publish blog posts with support for text formatting, images, and tags.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/CreatePost.png)
+#### Change Password
+   - Use this page to Change Your Password
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/ChangePassword.png)
+#### Logout
+   - Use this page to securely log out of your account and end your session on the platform.
+
+   - ![](https://github.com/Sayanibrahmachary/Blog-Webpage/blob/main/Assets/Logout.png)
