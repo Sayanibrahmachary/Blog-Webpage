@@ -135,7 +135,8 @@ function OpenPhoto({ closePopupOpenPhoto, itemsDetails }) {
   };
 
   useEffect(() => {
-    alreadyLike()
+    handleComment();
+    alreadyLike();
   }, []);
 
   return (
@@ -161,14 +162,15 @@ function OpenPhoto({ closePopupOpenPhoto, itemsDetails }) {
               </div>
               <FontAwesomeIcon icon={faShareFromSquare} size="xl" className="like-OpenPhoto" />
               <div className="tag-OpenPhoto">
-                <p>[{itemsDetails.tag}]</p>
+                {/* <p>[{itemsDetails.tag}]</p> */}
+                <p>[#Enjoy]</p>
               </div>
             </div>
           </div>
         </div>
         <div className="rightSide-OpenPhoto">
           {/* Add right section content here */}
-          <div className="craption-section">
+            <div className="craption-section">
               <div className="craption-section-openPhoto">
                 <div className="profilePic-profile-openPhoto">
                   <div className="circle-profile-openPhoto">
@@ -176,17 +178,22 @@ function OpenPhoto({ closePopupOpenPhoto, itemsDetails }) {
                           <img src={user[0].data.avatar}/>
                       </div>
                   </div>
-                  <h2>{user[0].data.username}</h2>
-                  <p>"{itemsDetails.description} is not just a city it is emotion"</p>
-                  <h1>...</h1>
                 </div>
-              </div>
-              <div className="gap"></div>
+                <div className="userName_comment">
+                    <div className="userName_comment_name">
+                      <h3>{user[0].data.username}</h3>
+                    </div>
+                    <div className="userName_comment_description">
+                      <p>"Enjoying the beauty of Nature"</p>
+                    </div>
+                </div>
+                <h1>...</h1>
+              </div> 
               <div className="whole-comment-section">
-                {comment.map((item, index) => (
-                  <div className="profilePic-profile-openPhoto-comment">
+                 {comment.map((item, index) => (
+                  <div key={index} className="profilePic-profile-openPhoto-comment">
                     <div className="circle-profile-openPhoto-comment">
-                        <div class="profileImage-user-profile-openPhoto-comment">
+                        <div className="profileImage-user-profile-openPhoto-comment">
                             <img src={item.avatar}/>
                         </div>
                     </div>
@@ -204,7 +211,7 @@ function OpenPhoto({ closePopupOpenPhoto, itemsDetails }) {
                   </div>
                 ))}
               </div>
-          </div> 
+            </div> 
         </div>
       </div>
     </div>

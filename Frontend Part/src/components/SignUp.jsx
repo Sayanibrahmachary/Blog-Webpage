@@ -16,6 +16,7 @@ function SignUp()
     const [imgPath, setImgPath] = useState("");
 
     const handleFileChange = (event) => {
+        //console.log(event.target.files[0]);
         setFiles(event.target.files[0]); // Save only the first file
         setIsFile(true);
         setImgPath(event.target.files[0]);

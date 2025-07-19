@@ -49,7 +49,7 @@ function Logout({closePopUpLogout}) {
             <div className="popup">
                 <h2>Logout</h2>
                 <div className="msg">
-                    <p>Are you sure you wnats to logout your account?</p>
+                    <p>Are you sure you want to logout your account?</p>
                 </div>
                 <div className="amountButtons">
                     <button className="btn1" onClick={handleLogout}>Logout</button>

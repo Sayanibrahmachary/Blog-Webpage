@@ -17,7 +17,7 @@
     width: 850px;
     height: 600px;
     background-color: #f5f5f5;
-    border-radius: 30px;
+    border-radius: 20px;
     display: flex;
 }
 .leftSide-OpenPhoto
@@ -25,11 +25,6 @@
     width: 450px;
     height: 600px;
     border-right: 2px rgb(84, 82, 82) solid;
-}
-.rightSide-OpenPhoto
-{
-    width: 450px;
-    height: 600px;
 }
 
 .image-section-OpenPhoto
@@ -148,12 +143,12 @@
 
 .craption-section
 {
-    width: 550px;
+    width: 400px;
     height: 600px;
 }
 .craption-section-openPhoto
 {
-    width: 550px;
+    width: 400px;
     height: 60px;
     display: flex;
     align-items: center;
@@ -162,8 +157,8 @@
 }
 .circle-profile-openPhoto
 {
-    width:35px;
-    height:35px;
+    width:45px;
+    height:45px;
     border-radius: 50%;
     background: linear-gradient(120deg,#e46c09,#9906ed,#3d4cee);
     display: flex;
@@ -172,39 +167,45 @@
 }
 .profileImage-user-profile-openPhoto
 {
-    width: 30px;
-    height: 30px;
+    width: 45px;
+    height: 40px;
     border-radius: 50%;
 }
-
-
-
+.profilePic-profile-openPhoto img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
 .profilePic-profile-openPhoto
 {
-    width: 400px;
+    width:40px;
     height: 40px;
     margin-left: 10px;
     display: flex;
 }
-.profilePic-profile-openPhoto h2
+
+.userName_comment
 {
-    margin-left: 10px;
-    margin-top: 5px;
+    width: 300px;
+    height: 40px;
 }
-.profilePic-profile-openPhoto p
+.userName_comment_name
 {
-    margin-left: 15px;
-    margin-top: 10px;
+    width: 300px;
+    height: 20px;
 }
-.profilePic-profile-openPhoto h1
+.userName_comment_name h3
 {
-    margin-left: 30px;
+    margin-right: 240px;
 }
-.profilePic-profile-openPhoto img
+.userName_comment_description
 {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    width: 300px;
+}
+.userName_comment_description p{
+    margin-right: 45px;
+    margin-bottom: 200px;
 }
 .profilePic-profile-openPhoto-comment
 {
@@ -213,6 +214,13 @@
     margin-left: 13px;
     margin-top: 20px;
     display: flex;
+}
+
+.whole-comment-section
+{
+    margin-top: 50px;
+    width: 400px;
+    height: 530px;
 }
 .circle-profile-openPhoto-comment
 {

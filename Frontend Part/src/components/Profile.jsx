@@ -269,7 +269,7 @@ function Profile()
                             <p>I believe in karma😊😊</p> */}
 
                             <p>{user[0].data.bio} 💙😊💙</p>
-                            <p>I believe in karma😊😊</p>
+                            {/* <p>I believe in karma😊😊</p> */}
                             <p>#Blue lover💙💙💙</p>
                         </div>
                         <div className="lowerPart-details-profile">
@@ -306,7 +306,7 @@ function Profile()
                                     <th>Following</th>
                                 </tr>
                                 <tr>
-                                    <td>10</td>
+                                    <td>2</td>
                                     <td className="sec">{getAllFollowers}</td>
                                     <td className="sec">{getAllFollowings}</td>
                                 </tr>
